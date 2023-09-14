@@ -49,6 +49,7 @@ for file in "$folder_name"/*; do
     # Show the proposed new name to the user and get confirmation
     echo "Example file to be renamed: $file"
     get_confirmation
+    break
   fi
 done
 
